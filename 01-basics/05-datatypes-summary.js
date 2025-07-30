@@ -22,13 +22,30 @@ let userEmail;
 // Arrays
 const heroes = ["BatMan", "spiderMan",];
 // Object
-const user = {
-    name : "ali",
-    age : 22,
-}
+// const user = {
+//     name : "ali",
+//     age : 22,
+// }
 
 // Functions
-let sayHi = function(){
-    console.log("Hello");
+// let sayHi = function(){
+//     console.log("Hello");
+// }
+// sayHi()
+
+
+
+// ============================================================
+// stack (primitive type)  heap(non-primitive or reference)
+
+let myName = "Tousif";
+let anotherName = "Ahmad";
+anotherName = "ufeez"
+console.log(anotherName);
+console.log(myName);
+
+let user = {
+    email : "user@gmail.com",
+    age : 22,
 }
-sayHi()
+let user2 = user;
