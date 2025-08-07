@@ -13,17 +13,17 @@
 
 // FILTER  
 
-// const nums = [1,2,3,4,5,6,7,8,9,10];
-// const result = nums.filter( (num) => {
-//     return num > 4;
-// });
+const nums = [1,2,3,4,5,6,7,8,9,10];
+const result = nums.filter( (num) => {
+    return num > 4;
+});
 
 // const newNums = [];
-// nums.forEach((num) =>{
-//     if (num > 4){
-//         newNums.push(num);
-//     }
-// })
+nums.forEach((num) =>{
+    if (num > 4){
+        newNums.push(num);
+    }
+})
 
 // console.log(newNums);
 
