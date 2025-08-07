@@ -46,5 +46,3 @@ const userEmail = "S@gmail.com";
 
 // let age = 16;
 // let res = age >= 18 ? console.log("You can vote") : console.log("You can't vote");
-
-
